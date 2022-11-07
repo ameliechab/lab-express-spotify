@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Rubik:wght@300;400;500;700&display=swap");
+* {
+  font-family: Rubik;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+
+button,
+a {
+  text-decoration: none;
+  background-color: #1db954;
+  padding: 1rem 3rem;
+  border-radius: 0.5rem;
+  color: white;
+}
+
+img {
+  width: 20rem;
+  height: 20rem;
+}
+
+input {
+  margin: 2rem 0;
+}
