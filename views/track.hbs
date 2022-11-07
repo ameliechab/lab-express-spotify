@@ -1,0 +1,9 @@
+{{#each tracksById}}
+
+  <figure>
+    <figcaption>Listen to: <p>{{this.name}}</p></figcaption>
+    <audio controls src="{{this.preview_url}}">
+    </audio>
+  </figure>
+
+{{/each}}
